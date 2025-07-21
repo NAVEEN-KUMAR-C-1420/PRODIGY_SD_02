@@ -17,7 +17,7 @@ public class Main {
         if (userGuess == randomNumber) {
             System.out.println("Correct! You guessed it right.");
         } else {
-            System.out.println("❌oops! Wrong guess. The correct number was: " + randomNumber);
+            System.out.println("oops! Wrong guess. The correct number was: " + randomNumber);
         }
 
         scanner.close();
